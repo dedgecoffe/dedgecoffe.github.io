@@ -1,36 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Basketball Zone</title>
+    <style>
+        /* CSS dasar untuk styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .banner {
+            background-image: url('banner.jpg'); /* Ganti dengan link gambar yang sesuai */
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basketball Gallery</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <header>
-    <h1>Wellcome Basketball Gallery</h1>
-  </header>
-
-  <section class="gallery">
-    <div class="gallery-item"><img src="image1.jpg" alt="Basketball 1"></div>
-        <p> Fauzi Kanjoed</p>
-    <div class="gallery-item"><img src="image2.jpg" alt="Basketball 2"></div>
-    <div class="gallery-item"><img src="image3.jpg" alt="Basketball 3"></div>
-    <!-- Add more images as needed -->
-  </section>
-
-  <script src="script.js"></script>
-</body>
-</html>
-
+    <header>
+        <h1>Basketball Zone</h1>
+        <p>Tempat Terbaik Untuk Pecinta Basket</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Berita</a>
+        <a href="#">Jadwal</a>
+        <a href="#">Tim</a>
+        <a href="#">Kontak</a>
+    </nav>
+    <div class="banner">
+        <h1>Welcome to Basketball Zone!</h1>
+        <p>Kumpulan berita dan informasi seputar dunia basket</p>
+    </div>
+    <div class="content">
+        <div class="card">
+            <img src="player1.jpg" alt="Pemain Basket 1">
+            <h2>Player of the Week</h2>
+            <p>Pemain terbaik minggu ini dengan performa luar biasa.</p>
+        </div>
+        <div class="card">
+            <img src="news.jpg" alt="Berita Basket">
+            <h2>Berita Terbaru</h2>
+            <p>Informasi terkini tentang pertandingan dan event basket.</p>
+        </div>
+        <div class="card">
+            <img src="schedule.jpg" alt="Jadwal Pertandingan">
+            <h2>Jadwal Pertandingan</h2>
+            <p>Jangan lewatkan jadwal pertandingan penting minggu ini.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Basketball Zone | Semua Hak Cipta Dilindungi</p>
+    </footer>
 </body>
 </html>
