@@ -50,7 +50,7 @@
             <a class="nav-link active link-light" aria-current="page" href="index.php"><i class="bi bi-house-door"></i> Home</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link link-dark" href="Daftarmenu.php"><i class="bi bi-menu-app-fill"></i> Daftar Menu</a>
+            <a class="nav-link link-dark" href="daftarmenu.php"><i class="bi bi-menu-app-fill"></i> Daftar Menu</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link link-dark" href="Kategorimenu.php"><i class="bi bi-tags"></i> Kategori Menu</a>
