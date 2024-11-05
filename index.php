@@ -47,7 +47,7 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav nav-pills flex-column justify-content-end flex-grow-1">
           <li class="nav-item">
-            <a class="nav-link active link-light" aria-current="page" href="index.php"><i class="bi bi-house-door"></i> Home</a>
+            <a class="nav-link active link-light" aria-current="page" href="index.php"><i class="bi bi-house-door"></i> Dashboard</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link link-dark" href="daftarmenu.php"><i class="bi bi-menu-app-fill"></i> Daftar Menu</a>
