@@ -77,7 +77,7 @@
         <div class="col-lg-9 mt-2">
         <div class="card">
   <div class="card-header">
-    Home
+    Dashboard
   </div>
   <div class="card-body">
     <h5 class="card-title">Ini adalah bagian Home</h5>
