@@ -50,7 +50,7 @@
             <a class="nav-link active link-light" aria-current="page" href="index.php"><i class="bi bi-house-door"></i> Dashboard</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link link-dark" href="daftarmenu.php"><i class="bi bi-menu-app-fill"></i> Daftar Menu</a>
+            <a class="nav-link link-dark" href="menu.php"><i class="bi bi-menu-app-fill"></i> Daftar Menu</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link link-dark" href="kategorimenu.php"><i class="bi bi-tags"></i> Kategori Menu</a>
@@ -77,10 +77,10 @@
         <div class="col-lg-9 mt-2">
         <div class="card">
   <div class="card-header">
-    Dashboard
+    Daftar Menu
   </div>
   <div class="card-body">
-    <h5 class="card-title">Ini adalah bagian Home</h5>
+    <h5 class="card-title">Ini adalah bagian Daftar Menu</h5>
     <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil fugit ab odio ipsum sed labore similique repellendus reiciendis, eveniet vero, harum tempore aut. Maiores magnam harum nemo in assumenda.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
