@@ -77,6 +77,7 @@
           </div>
         </nav>
       </div>
+      <!-- End Sidebar -->
 
       <!-- Konten -->
       <div class="col-lg-9 mt-2">
