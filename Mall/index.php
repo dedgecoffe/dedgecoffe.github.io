@@ -49,25 +49,19 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav nav-pills flex-column justify-content-end flex-grow-1">
                 <li class="nav-item">
-                  <a class="nav-link active link-light" aria-current="page" href="index.html"><i class="bi bi-house-door"></i> Dashboard</a>
+                  <a class="nav-link active link-light" aria-current="page" href="Index.php"><i class="bi bi-house-door"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-dark" href="menu.html"><i class="bi bi-menu-app-fill"></i> Daftar Menu</a>
+                  <a class="nav-link link-dark" href="Order.php"><i class="bi bi-menu-app-fill"></i> Order</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-dark" href="kategorimenu.php"><i class="bi bi-tags"></i> Kategori Menu</a>
+                  <a class="nav-link link-dark" href="Customer.php"><i class="bi bi-tags"></i> Customer</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-dark" href="order.php"><i class="bi bi-cart4"></i> Order</a>
+                  <a class="nav-link link-dark" href="Product.php"><i class="bi bi-cart4"></i> Product</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-dark" href="dapur.php"><i class="bi bi-fire"></i> Dapur</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-dark" href="user.php"><i class="bi bi-person-fill"></i> User</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-dark" href="report.php"><i class="bi bi-journals"></i> Report</a>
+                  <a class="nav-link link-dark" href="Report.php"><i class="bi bi-fire"></i> Report</a>
                 </li>
               </ul>
             </div>
