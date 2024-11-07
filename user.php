@@ -63,9 +63,6 @@
                     <a class="nav-link link-dark" href="order.php"><i class="bi bi-cart4"></i> Order</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link link-dark" href="dapur.php"><i class="bi bi-fire"></i> Dapur</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link link-dark" href="user.php"><i class="bi bi-person-fill"></i> User</a>
                   </li>
                   <li class="nav-item">
