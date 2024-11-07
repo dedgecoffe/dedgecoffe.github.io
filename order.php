@@ -36,6 +36,7 @@
   <!-- Sidebar dan Konten -->
   <div class="container-lg">
     <div class="row">
+
       <!-- Sidebar -->
       <div class="col-lg-3">
         <nav class="navbar navbar-expand-lg bg-light rounded border mt-2">
@@ -77,6 +78,7 @@
           </div>
         </nav>
       </div>
+      <!-- End Sidebar -->
 
       <!-- Konten -->
       <div class="col-lg-9 mt-2">
