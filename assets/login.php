@@ -35,12 +35,54 @@
             box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15)
         }
 
-
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
         }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentcolor;
+        }
+
+        .nav-scoller {
+           position: relative;
+           z-index: 2;
+           height: 2.75rem;
+           overflow-y: hidden;
+        }
+
+        .nav-scoller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+
+    <!--custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
 </head>
 
-<body>
-    <h1>Hello, world!</h1>
+<body class="text-center">
+
+    <main class="form-signin w-100 m-auto">
+        <form>
+            <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Please Sign In</h1>
+
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatinginput" placeholder="name@example.com">
+                <label for="floatinginput">Email Address</label>
+           </div>
+           <div class="form-floating">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 
