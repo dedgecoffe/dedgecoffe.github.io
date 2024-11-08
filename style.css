@@ -88,10 +88,16 @@
  footer a:hover { text-decoration: underline; }
 
  /* Responsif */
- @media (max-width: 768px) {
-   .hero h2 { font-size: 2.5rem; }
-   .hero p { font-size: 1rem; }
- }
+ /* Responsif */
+@media (max-width: 768px) {
+  .hero h2 { font-size: 2.5rem; }
+  .hero p { font-size: 1rem; }
+  nav ul { flex-direction: column; gap: 10px; } /* Menampilkan menu secara vertikal */
+  .menu-section h2 { font-size: 2rem; }
+  .menu-container {
+      grid-template-columns: 1fr; /* Menampilkan satu kolom pada layar kecil */
+  }
+}
 
  /* Reset CSS */
  * { margin: 0; padding: 0; box-sizing: border-box; }
