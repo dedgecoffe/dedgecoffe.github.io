@@ -18,9 +18,42 @@
             color: #333;
         }
 
+        /* Navbar Styles */
+        .navbar {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #f4a261;
+        }
+
         /* Parallax Section */
         .parallax {
-            background-image: url('Gambar/back.JPG'); /* Gambar latar belakang pertama */
+            background-image: url('cafe-bg.jpg'); /* Gambar latar belakang pertama */
             min-height: 400px;
             background-attachment: fixed;
             background-position: center;
@@ -29,6 +62,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-top: 60px; /* Adjust for fixed navbar */
         }
 
         .parallax h1 {
@@ -60,7 +94,7 @@
 
         /* Parallax Section 2 */
         .parallax2 {
-            background-image: url('Gambar/back.JPG'); /* Gambar latar belakang kedua */
+            background-image: url('cafe-interior.jpg'); /* Gambar latar belakang kedua */
             min-height: 400px;
             background-attachment: fixed;
             background-position: center;
@@ -80,25 +114,35 @@
 </head>
 <body>
 
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#sejarah">Sejarah</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
     <!-- Parallax Section 1 -->
-    <div class="parallax">
+    <div id="beranda" class="parallax">
         <h1>Sejarah Cafe Kami</h1>
     </div>
 
     <!-- Bagian Konten Sejarah Cafe -->
-    <section class="content-section">
+    <section id="sejarah" class="content-section">
         <h2>Apa yang Membuat Kami Berbeda</h2>
         <p>Cafe kami didirikan pada tahun 2005 dengan visi untuk menciptakan tempat berkumpul yang nyaman dan ramah untuk semua orang. Dimulai dari sebuah kedai kecil di pojokan jalan, kami kini menjadi salah satu tujuan populer untuk menikmati kopi berkualitas dan makanan lezat.</p>
         <p>Setiap hari, kami menyambut para tamu dengan senyuman hangat dan suasana yang santai, memberikan mereka tempat untuk melarikan diri sejenak dari rutinitas sehari-hari. Kami berkomitmen untuk selalu menyajikan bahan-bahan terbaik dalam setiap cangkir kopi dan hidangan yang kami sajikan.</p>
     </section>
 
     <!-- Parallax Section 2 -->
-    <div class="parallax2">
+    <div id="menu" class="parallax2">
         <h2>Kenangan Bersama Pelanggan</h2>
     </div>
 
     <!-- Bagian Konten Tambahan -->
-    <section class="content-section">
+    <section id="kontak" class="content-section">
         <h2>Mengapa Kami Diingat</h2>
         <p>Dari awal berdiri hingga saat ini, kami senantiasa berinovasi untuk menyajikan suasana dan menu yang terus berkembang sesuai dengan kebutuhan dan keinginan pelanggan. Bagi kami, setiap kunjungan adalah kesempatan untuk menciptakan kenangan indah bersama pelanggan setia kami.</p>
         <p>Terima kasih telah menjadi bagian dari perjalanan kami. Kami akan selalu berusaha memberikan yang terbaik untuk pengalaman ngopi yang tak terlupakan.</p>
