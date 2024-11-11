@@ -3,54 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Sejarah Cafe</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sejarah Cafe Kami</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Parallax Section */
+        .parallax {
+            background-image: url('cafe-bg.jpg'); /* Tambahkan gambar latar belakang */
+            min-height: 400px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .parallax h1 {
+            color: #fff;
+            font-size: 3em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Konten Bagian Sejarah */
+        .content-section {
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
+        .content-section h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .content-section p {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Parallax Section 2 */
+        .parallax2 {
+            background-image: url('cafe-interior.jpg'); /* Tambahkan gambar latar belakang kedua */
+            min-height: 400px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .parallax2 h2 {
+            color: #fff;
+            font-size: 3em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+    </style>
 </head>
 <body>
-    <header class="parallax-header">
-        <div class="header-content">
-            <h1>Sejarah Cafe</h1>
-            <p>Selamat datang di dashboard sejarah cafe kami!</p>
-        </div>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="#">Tentang Kami</a></li>
-            <li><a href="laporan.html">Laporan</a></li>
-        </ul>
-    </nav>
+    <!-- Parallax Section 1 -->
+    <div class="parallax">
+        <h1>Sejarah Cafe Kami</h1>
+    </div>
 
-    <main>
-        <section class="history">
-            <h2>Timeline Sejarah</h2>
-            <div class="history-item">
-                <h3>2000 - Pendirian Cafe</h3>
-                <p>Cafe ini didirikan oleh sekelompok pecinta kopi yang ingin menciptakan tempat berkumpul yang nyaman.</p>
-                <img src="gambar/cafe2.jpg" alt="Pembukaan Cafe">
-            </div>
-            <div class="history-item">
-                <h3>2005 - Ekspansi Menu</h3>
-                <p>Menu kami diperluas dengan menambahkan berbagai jenis kopi dan makanan ringan.</p>
-                <img src="images/menu-expansion.jpg" alt="Ekspansi Menu">
-            </div>
-            <div class="history-item">
-                <h3>2010 - Acara Komunitas</h3>
-                <p>Kami mulai mengadakan acara komunitas seperti pembacaan puisi dan pertunjukan musik.</p>
-                <img src="images/community-event.jpg" alt="Acara Komunitas">
-            </div>
-            <div class="history-item">
-                <h3>2020 - Renovasi Cafe</h3>
-                <p>Cafe kami direnovasi untuk memberikan suasana yang lebih modern dan nyaman.</p>
-                <img src="images/cafe-renovation.jpg" alt="Renovasi Cafe">
-            </div>
-        </section>
-    </main>
+    <!-- Bagian Konten Sejarah Cafe -->
+    <section class="content-section">
+        <h2>Apa yang Membuat Kami Berbeda</h2>
+        <p>Cafe kami didirikan pada tahun 2005 dengan visi untuk menciptakan tempat berkumpul yang nyaman dan ramah untuk semua orang. Dimulai dari sebuah kedai kecil di pojokan jalan, kami kini menjadi salah satu tujuan populer untuk menikmati kopi berkualitas dan makanan lezat.</p>
+        <p>Setiap hari, kami menyambut para tamu dengan senyuman hangat dan suasana yang santai, memberikan mereka tempat untuk melarikan diri sejenak dari rutinitas sehari-hari. Kami berkomitmen untuk selalu menyajikan bahan-bahan terbaik dalam setiap cangkir kopi dan hidangan yang kami sajikan.</p>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 Cafe Kami. Semua hak dilindungi.</p>
-    </footer>
+    <!-- Parallax Section 2 -->
+    <div class="parallax2">
+        <h2>Kenangan Bersama Pelanggan</h2>
+    </div>
+
+    <!-- Bagian Konten Tambahan -->
+    <section class="content-section">
+        <h2>Mengapa Kami Diingat</h2>
+        <p>Dari awal berdiri hingga saat ini, kami senantiasa berinovasi untuk menyajikan suasana dan menu yang terus berkembang sesuai dengan kebutuhan dan keinginan pelanggan. Bagi kami, setiap kunjungan adalah kesempatan untuk menciptakan kenangan indah bersama pelanggan setia kami.</p>
+        <p>Terima kasih telah menjadi bagian dari perjalanan kami. Kami akan selalu berusaha memberikan yang terbaik untuk pengalaman ngopi yang tak terlupakan.</p>
+    </section>
+
 </body>
 </html>
