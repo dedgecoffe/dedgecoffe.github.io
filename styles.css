@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #333333;
 }
 
 /* Navbar Styles */
@@ -74,16 +74,31 @@ body {
 
 .content-section h2 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
+    
     margin-bottom: 20px;
     font-size: 2.5em;
 }
 
 .content-section p {
     font-size: 1.1em;
-    color: #666;
+    color: #ffffff;
     margin-bottom: 20px;
 }
+
+.content-section {
+    padding: 40px;
+    max-width: 800px;
+    margin: 40px auto; /* Menambahkan margin atas-bawah agar terpisah dari bagian lain */
+    background-color: #000000; /* Warna latar belakang yang lembut */
+    background-image: url('Gambar/background_content.jpg'); /* Menambahkan gambar latar belakang jika ada */
+    background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh area */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-position: center; /* Memposisikan gambar di tengah */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    border-radius: 8px; /* Sudut membulat untuk tampilan yang lebih halus */
+}
+
 
 /* Parallax Section 2 */
 .parallax2 {
