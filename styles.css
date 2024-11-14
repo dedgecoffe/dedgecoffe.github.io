@@ -349,6 +349,7 @@ header nav ul li a:hover {
     }
 }
 
+
 .content h2 {
     font-size: 32px;
     padding: 5px;
@@ -373,5 +374,3 @@ header nav ul li a:hover {
         transform: translateY(0);
     }
 }
-
-
